@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سجود - مواقيت الصلاة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>سجود - مواقيت الصلاة</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#prayer-times">مواقيت الصلاة</a></li>
+                <li><a href="#qibla">اتجاه القبلة</a></li>
+                <li><a href="#articles">مقالات دينية</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="prayer-times">
+        <h2>مواقيت الصلاة لمدينتك</h2>
+        <p>اختر مدينتك لعرض المواقيت الدقيقة:</p>
+        <select id="city-select">
+            <option value="tripoli">طرابلس</option>
+            <option value="benghazi">بنغازي</option>
+            <option value="misrata">مصراتة</option>
+            <option value="sabha">سبها</option>
+        </select>
+        <div id="times">
+            <p>الفجر: <span id="fajr">--:--</span></p>
+            <p>الظهر: <span id="dhuhr">--:--</span></p>
+            <p>العصر: <span id="asr">--:--</span></p>
+            <p>المغرب: <span id="maghrib">--:--</span></p>
+            <p>العشاء: <span id="isha">--:--</span></p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 سجود - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
